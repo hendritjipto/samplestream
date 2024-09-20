@@ -1,6 +1,4 @@
-# Sample Stream Processing 
-
-Please run this 
+# Sample Stream Processing ⚙️
 
 Sample playground-1.mongodb.js for this functionality : 
 - It uppercase the name
