@@ -12,7 +12,7 @@ src_hard_coded = {
                 
                 'name': "SIr AlOn Balon po",
                 'gender' : "M",
-                'city': "manilax"
+                'city': "manila"
             }
         ]
     }
@@ -122,10 +122,10 @@ deadLetter = {
   }
 
 sp_pipeline = [src_hard_coded, upperCityCase, validate, upperNameCase, genderString,mergex];
-sp.createStreamProcessor("Stream1", sp_pipeline, deadLetter);
-//sp.process(sp_pipeline, deadLetter);
+//sp.createStreamProcessor("Stream1", sp_pipeline, deadLetter);
+sp.process(sp_pipeline);
 
 
-sp.Stream1.start()
-
-sp.Stream1.drop()
+//sp.Stream1.start()
+//sp.listStreamProcessors()
+//sp.Stream1.drop()
