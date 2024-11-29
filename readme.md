@@ -10,6 +10,10 @@ Sample playground-1.mongodb.js for this functionality :
 ```bash
 sp.listStreamProcessors()
 ```
+- Delete stream processor
+```bash
+sp.<<SPNAME>>.drop()
+```
 - Get verbose statistic 
 ```bash
 sp.Stream2.stats({options:{verbose : true}})
